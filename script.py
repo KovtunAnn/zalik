@@ -1,2 +1,3 @@
-a=7
+a=input()
+b=input()
 print("hello")
