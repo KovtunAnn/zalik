@@ -1,2 +1,3 @@
 a=input()
+b=input()
 print("hello")
