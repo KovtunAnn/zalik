@@ -1,0 +1,46 @@
+PS C:\Users\DELL\Desktop\zalik> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\DELL\Desktop\zalik> git branch
+  hotfix
+* main
+PS C:\Users\DELL\Desktop\zalik> git log
+commit ef3423291883fcc74381e3065b7235ad3c500ffa (HEAD -> main, origin/main)
+Merge: f28018c 6abb53b
+Author: KovtunAnn <kovtunann2008@gmail.com>
+Date:   Fri Oct 23 10:08:19 2026 +0300
+
+    вирішено конфлікт
+
+commit f28018c83d4bdc08e30f74514fb2761996ae0a74
+Author: KovtunAnn <kovtunann2008@gmail.com>
+Date:   Fri Oct 23 10:05:00 2026 +0300
+
+    додано значення а
+
+commit 6abb53b388047d0c10ea6e453958b0698e5c756f (hotfix)
+Author: KovtunAnn <kovtunann2008@gmail.com>
+Date:   Fri Oct 23 09:59:00 2026 +0300
+
+    додано введення b
+
+commit 9c20bbb6a64902ff25c7f1fe784bbca283ecf18a
+Author: KovtunAnn <kovtunann2008@gmail.com>
+Date:   Fri Oct 23 09:57:42 2026 +0300
+
+    додано введення а
+
+commit de9bfe678b3856bbdbb80cc5061c93e91d6cb3d7
+Author: KovtunAnn <kovtunann2008@gmail.com>
+Date:   Fri Oct 23 09:54:18 2026 +0300
+
+PS C:\Users\DELL\Desktop\zalik> git log --merges
+commit ef3423291883fcc74381e3065b7235ad3c500ffa (HEAD -> main, origin/main)
+Merge: f28018c 6abb53b
+Author: KovtunAnn <kovtunann2008@gmail.com>
+Date:   Fri Oct 23 10:08:19 2026 +0300
+
+    вирішено конфлікт
+PS C:\Users\DELL\Desktop\zalik>
